@@ -77,4 +77,9 @@ Droplet::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  #S3 config
+  config.s3_access_key = ''
+  config.s3_secret_key = ''
+  config.s3_bucket = ''
 end

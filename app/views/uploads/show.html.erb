@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Slug:</strong>
+  <%= @upload.slug %>
+</p>
+
+<p>
+  <strong>Filename:</strong>
+  <%= @upload.filename %>
+</p>
+
+<p>
+  <strong>Views:</strong>
+  <%= @upload.views %>
+</p>
+
+<%= link_to 'Edit', edit_upload_path(@upload) %> |
+<%= link_to 'Back', uploads_path %>

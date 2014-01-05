@@ -5,6 +5,7 @@ class User < ActiveRecord::Base
   attr_accessor :password
 
   before_save :encrypt_password
+  before_create :set_uploadsleft, :set_plan
 
   def self.authenticated?(login, password)
     pwd = Digest::SHA1.hexdigest(password.to_s)
@@ -19,5 +20,13 @@ class User < ActiveRecord::Base
       self.password = nil
     end
     return true
+  end
+
+  def set_uploadsleft
+    self.uploadsleft = 10
+  end
+
+  def set_plan
+    self.plan = 0
   end
 end

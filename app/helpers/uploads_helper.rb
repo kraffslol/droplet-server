@@ -6,17 +6,18 @@ module UploadsHelper
     access_key_id = options[:access_key_id]
     secret_access_key = options[:secret_access_key]
     key = options[:key] || ''
+    slug = options[:slug]
     redirect = options[:redirect] || '/'
     acl = options[:acl] || 'public-read'
     thetime = Time.now.getutc + 1*60*60
     expiration_date = thetime.strftime('%Y-%m-%dT%H:%M:%SZ')
-    max_filesize = options[:max_filesize] || 671088640 # 5 gb
+    max_filesize = options[:max_filesize] || 26214400 # 25 mb
 
     policy = Base64.encode64(
         "{'expiration': '#{expiration_date}',
         'conditions': [
         {'bucket': '#{bucket}'},
-        ['starts-with', '$key', '#{key}'],
+        ['starts-with', '$key', 'items/#{slug}/'],
         {'acl': '#{acl}'},
         {'success_action_redirect': '#{redirect}'},
         ['content-length-range', 0, #{max_filesize}]

@@ -14,11 +14,11 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Droplet@test_all_db__Droplet.coverage" NAME="test:all:db: Droplet Coverage Results" MODIFIED="1388819306475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Droplet" />
     <SUITE FILE_PATH="coverage/Droplet@db_test_clone__Droplet.coverage" NAME="db:test:clone: Droplet Coverage Results" MODIFIED="1388819265849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Droplet" />
-    <SUITE FILE_PATH="coverage/Droplet@Rails_console__Droplet.coverage" NAME="Rails console: Droplet Coverage Results" MODIFIED="1388820714691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Droplet" />
+    <SUITE FILE_PATH="coverage/Droplet@Rails_console__Droplet.coverage" NAME="Rails console: Droplet Coverage Results" MODIFIED="1388929367435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Droplet" />
     <SUITE FILE_PATH="coverage/Droplet@db_test_prepare__Droplet.coverage" NAME="db:test:prepare: Droplet Coverage Results" MODIFIED="1388819331115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Droplet" />
     <SUITE FILE_PATH="coverage/Droplet@test_units__Droplet.coverage" NAME="test:units: Droplet Coverage Results" MODIFIED="1388819779830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Droplet" />
-    <SUITE FILE_PATH="coverage/Droplet@Development__Droplet.coverage" NAME="Development: Droplet Coverage Results" MODIFIED="1388820737596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Droplet" />
-    <SUITE FILE_PATH="coverage/Droplet@db_migrate__Droplet.coverage" NAME="db:migrate: Droplet Coverage Results" MODIFIED="1388819202802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Droplet" />
+    <SUITE FILE_PATH="coverage/Droplet@Development__Droplet.coverage" NAME="Development: Droplet Coverage Results" MODIFIED="1388929328886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Droplet" />
+    <SUITE FILE_PATH="coverage/Droplet@db_migrate__Droplet.coverage" NAME="db:migrate: Droplet Coverage Results" MODIFIED="1388858861571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Droplet" />
     <SUITE FILE_PATH="coverage/Droplet@test_all__Droplet.coverage" NAME="test:all: Droplet Coverage Results" MODIFIED="1388817575938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Droplet" />
     <SUITE FILE_PATH="coverage/Droplet@IRB_console__Droplet.coverage" NAME="IRB console: Droplet Coverage Results" MODIFIED="1388820606185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Droplet" />
     <SUITE FILE_PATH="coverage/Droplet@db_drop__Droplet.coverage" NAME="db:drop: Droplet Coverage Results" MODIFIED="1388819081461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Droplet" />
@@ -35,10 +35,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="uploads_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="uploads_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/uploads_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="39" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+            <state line="68" column="73" selection-start="2292" selection-end="2292" vertical-scroll-proportion="1.9626485" vertical-offset="0" max-vertical-offset="1598">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="environment.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environment.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="52" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="12" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="901">
               <folding />
             </state>
           </provider>
@@ -56,7 +74,7 @@
       <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="5" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+            <state line="5" column="0" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
@@ -71,10 +89,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uploads_helper.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="33" selection-start="675" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="680">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uploads_helper.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/helpers/uploads_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="49" selection-start="429" selection-end="429" vertical-scroll-proportion="0.24412532" vertical-offset="0" max-vertical-offset="766">
+            <state line="13" column="61" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
               <folding />
             </state>
           </provider>
@@ -83,7 +110,7 @@
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="33" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
+            <state line="13" column="75" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
               <folding />
             </state>
           </provider>
@@ -103,17 +130,18 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/helpers/uploads_helper.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/test/controllers/uploads_controller_test.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140104061937_create_users.rb" />
         <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/test/models/user_test.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/config/environment.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/uploads_helper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/uploads_controller.rb" />
       </list>
     </option>
@@ -126,10 +154,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="x" value="2153" />
+    <option name="y" value="91" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -313,6 +341,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Droplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Droplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Droplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Droplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -382,32 +442,400 @@
     <property name="recentsLimit" value="5" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
+    <property name="last_opened_file_path" value="C:/123" />
   </component>
-  <component name="RunManager" selected="Rails.Development: Droplet">
-    <configuration default="false" name="test:units: Droplet" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
-      <module name="Droplet" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="development" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test:units" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://s3-eu-west-1.amazonaws.com" />
+          <option name="urlPath" value="f.droplet.pw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="AWSAccessKeyId" />
+                <option name="value" value="ccFitHdR8DWlBEfVh9x0ohsZ7CU+y8dyrWvM15i6" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="acl" />
+                <option name="value" value="public-read" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="key" />
+                <option name="value" value="items/bfkZ/${filename}" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="policy" />
+                <option name="value" value="eydleHBpcmF0aW9uJzogJzIwMTQtMDEtMDRUMTU6MzY6NTBaJywKICAgICAgICAnY29uZGl0aW9ucyc6IFsKICAgICAgICB7J2J1Y2tldCc6ICdmLmRyb3BsZXQucHcnfSwKICAgICAgICBbJ3N0YXJ0cy13aXRoJywgJyRrZXknLCAnaXRlbXMvYmZrWi8ke2ZpbGVuYW1lfSddLAogICAgICAgIHsnYWNsJzogJ3B1YmxpYy1yZWFkJ30sCiAgICAgICAgeydzdWNjZXNzX2FjdGlvbl9yZWRpcmVjdCc6ICdodHRwOi8vbG9jYWxob3N0OjMwMDAvczMnfSwKICAgICAgICBbJ2NvbnRlbnQtbGVuZ3RoLXJhbmdlJywgMCwgNjcxMDg4NjQwXQogICAgICBdCiAgICB9" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="success_action_redirect" />
+                <option name="value" value="http://localhost:3000/items/s3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="signature" />
+                <option name="value" value="r7vFSi5gYqx0XhKGkU7Np8G8liE=" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="file" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="C:/123/salem.jpg" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://s3-eu-west-1.amazonaws.com" />
+          <option name="urlPath" value="f.droplet.pw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="AWSAccessKeyId" />
+                <option name="value" value="ccFitHdR8DWlBEfVh9x0ohsZ7CU+y8dyrWvM15i6" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="acl" />
+                <option name="value" value="public-read" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="key" />
+                <option name="value" value="items/bfkZ/${filename}" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="policy" />
+                <option name="value" value="eydleHBpcmF0aW9uJzogJzIwMTQtMDEtMDRUMTU6MzY6NTBaJywKICAgICAgICAnY29uZGl0aW9ucyc6IFsKICAgICAgICB7J2J1Y2tldCc6ICdmLmRyb3BsZXQucHcnfSwKICAgICAgICBbJ3N0YXJ0cy13aXRoJywgJyRrZXknLCAnaXRlbXMvYmZrWi8ke2ZpbGVuYW1lfSddLAogICAgICAgIHsnYWNsJzogJ3B1YmxpYy1yZWFkJ30sCiAgICAgICAgeydzdWNjZXNzX2FjdGlvbl9yZWRpcmVjdCc6ICdodHRwOi8vbG9jYWxob3N0OjMwMDAvczMnfSwKICAgICAgICBbJ2NvbnRlbnQtbGVuZ3RoLXJhbmdlJywgMCwgNjcxMDg4NjQwXQogICAgICBdCiAgICB9" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="success_action_redirect" />
+                <option name="value" value="http://localhost:3000/items/s3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="signature" />
+                <option name="value" value="r7vFSi5gYqx0XhKGkU7Np8G8liE=" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="C:/123/salem.jpg" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://s3-eu-west-1.amazonaws.com" />
+          <option name="urlPath" value="f.droplet.pw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="AWSAccessKeyId" />
+                <option name="value" value="ccFitHdR8DWlBEfVh9x0ohsZ7CU+y8dyrWvM15i6" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="acl" />
+                <option name="value" value="public-read" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="key" />
+                <option name="value" value="items/25Kl" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="policy" />
+                <option name="value" value="eydleHBpcmF0aW9uJzogJzIwMTQtMDEtMDRUMTU6Mjc6MzJaJywKICAgICAgICAnY29uZGl0aW9ucyc6IFsKICAgICAgICB7J2J1Y2tldCc6ICdmLmRyb3BsZXQucHcnfSwKICAgICAgICBbJ3N0YXJ0cy13aXRoJywgJyRrZXknLCAnaXRlbXMvMjVLbCddLAogICAgICAgIHsnYWNsJzogJ3B1YmxpYy1yZWFkJ30sCiAgICAgICAgeydzdWNjZXNzX2FjdGlvbl9yZWRpcmVjdCc6ICdodHRwOi8vbG9jYWxob3N0OjMwMDAvczMnfSwKICAgICAgICBbJ2NvbnRlbnQtbGVuZ3RoLXJhbmdlJywgMCwgNjcxMDg4NjQwXQogICAgICBdCiAgICB9" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="success_action_redirect" />
+                <option name="value" value="http://localhost:3000/items/s3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="signature" />
+                <option name="value" value="U4p5Y8xMLJGr+wWxAaxQwgGKMio=" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="C:/123/salem.jpg" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://s3-eu-west-1.amazonaws.com" />
+          <option name="urlPath" value="f.droplet.pw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="AWSAccessKeyId" />
+                <option name="value" value="ccFitHdR8DWlBEfVh9x0ohsZ7CU+y8dyrWvM15i6" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="acl" />
+                <option name="value" value="public-read" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="key" />
+                <option name="value" value="items/25Kl" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="policy" />
+                <option name="value" value="eydleHBpcmF0aW9uJzogJzIwMTQtMDEtMDRUMTU6Mjc6MzJaJywKICAgICAgICAnY29uZGl0aW9ucyc6IFsKICAgICAgICB7J2J1Y2tldCc6ICdmLmRyb3BsZXQucHcnfSwKICAgICAgICBbJ3N0YXJ0cy13aXRoJywgJyRrZXknLCAnaXRlbXMvMjVLbCddLAogICAgICAgIHsnYWNsJzogJ3B1YmxpYy1yZWFkJ30sCiAgICAgICAgeydzdWNjZXNzX2FjdGlvbl9yZWRpcmVjdCc6ICdodHRwOi8vbG9jYWxob3N0OjMwMDAvczMnfSwKICAgICAgICBbJ2NvbnRlbnQtbGVuZ3RoLXJhbmdlJywgMCwgNjcxMDg4NjQwXQogICAgICBdCiAgICB9" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="success_action_redirect" />
+                <option name="value" value="http://localhost:3000/items/s3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="signature" />
+                <option name="value" value="U4p5Y8xMLJGr+wWxAaxQwgGKMio=" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="C:/123/salem.jpg" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://s3-eu-west-1.amazonaws.com" />
+          <option name="urlPath" value="f.droplet.pw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="AWSAccessKeyId" />
+                <option name="value" value="ccFitHdR8DWlBEfVh9x0ohsZ7CU+y8dyrWvM15i6" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="acl" />
+                <option name="value" value="public-read" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="key" />
+                <option name="value" value="items/25Kl" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="policy" />
+                <option name="value" value="eydleHBpcmF0aW9uJzogJzIwMTQtMDEtMDRUMTU6Mjc6MzJaJywKICAgICAgICAnY29uZGl0aW9ucyc6IFsKICAgICAgICB7J2J1Y2tldCc6ICdmLmRyb3BsZXQucHcnfSwKICAgICAgICBbJ3N0YXJ0cy13aXRoJywgJyRrZXknLCAnaXRlbXMvMjVLbCddLAogICAgICAgIHsnYWNsJzogJ3B1YmxpYy1yZWFkJ30sCiAgICAgICAgeydzdWNjZXNzX2FjdGlvbl9yZWRpcmVjdCc6ICdodHRwOi8vbG9jYWxob3N0OjMwMDAvczMnfSwKICAgICAgICBbJ2NvbnRlbnQtbGVuZ3RoLXJhbmdlJywgMCwgNjcxMDg4NjQwXQogICAgICBdCiAgICB9" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="success_action_redirect" />
+                <option name="value" value="http://localhost:3000/items/s3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="signature" />
+                <option name="value" value="U4p5Y8xMLJGr+wWxAaxQwgGKMio=" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="C:/123/salem.jpg" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://s3-eu-west-1.amazonaws.com" />
+          <option name="urlPath" value="f.droplet.pw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic eG0wcmZpbkBnbWFpbC5jb206MTIzNA==" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="AWSAccessKeyId" />
+                <option name="value" value="ccFitHdR8DWlBEfVh9x0ohsZ7CU+y8dyrWvM15i6" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="acl" />
+                <option name="value" value="public-read" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="key" />
+                <option name="value" value="items/25Kl" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="policy" />
+                <option name="value" value="eydleHBpcmF0aW9uJzogJzIwMTQtMDEtMDRUMTU6Mjc6MzJaJywKICAgICAgICAnY29uZGl0aW9ucyc6IFsKICAgICAgICB7J2J1Y2tldCc6ICdmLmRyb3BsZXQucHcnfSwKICAgICAgICBbJ3N0YXJ0cy13aXRoJywgJyRrZXknLCAnaXRlbXMvMjVLbCddLAogICAgICAgIHsnYWNsJzogJ3B1YmxpYy1yZWFkJ30sCiAgICAgICAgeydzdWNjZXNzX2FjdGlvbl9yZWRpcmVjdCc6ICdodHRwOi8vbG9jYWxob3N0OjMwMDAvczMnfSwKICAgICAgICBbJ2NvbnRlbnQtbGVuZ3RoLXJhbmdlJywgMCwgNjcxMDg4NjQwXQogICAgICBdCiAgICB9" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="success_action_redirect" />
+                <option name="value" value="http://localhost:3000/items/s3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="signature" />
+                <option name="value" value="U4p5Y8xMLJGr+wWxAaxQwgGKMio=" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="C:/123/salem.jpg" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://s3-eu-west-1.amazonaws.com" />
+          <option name="urlPath" value="f.droplet.pw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic eG0wcmZpbkBnbWFpbC5jb206MTIzNA==" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="AWSAccessKeyId" />
+                <option name="value" value="ccFitHdR8DWlBEfVh9x0ohsZ7CU+y8dyrWvM15i6" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="acl" />
+                <option name="value" value="public-read" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="key" />
+                <option name="value" value="items/25Kl" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="policy" />
+                <option name="value" value="eydleHBpcmF0aW9uJzogJzIwMTQtMDEtMDRUMTU6Mjc6MzJaJywKICAgICAgICAnY29uZGl0aW9ucyc6IFsKICAgICAgICB7J2J1Y2tldCc6ICdmLmRyb3BsZXQucHcnfSwKICAgICAgICBbJ3N0YXJ0cy13aXRoJywgJyRrZXknLCAnaXRlbXMvMjVLbCddLAogICAgICAgIHsnYWNsJzogJ3B1YmxpYy1yZWFkJ30sCiAgICAgICAgeydzdWNjZXNzX2FjdGlvbl9yZWRpcmVjdCc6ICdodHRwOi8vbG9jYWxob3N0OjMwMDAvczMnfSwKICAgICAgICBbJ2NvbnRlbnQtbGVuZ3RoLXJhbmdlJywgMCwgNjcxMDg4NjQwXQogICAgICBdCiAgICB9" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="success_action_redirect" />
+                <option name="value" value="http://localhost:3000/items/s3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="signature" />
+                <option name="value" value="U4p5Y8xMLJGr+wWxAaxQwgGKMio=" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="C:/123/salem.jpg" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/items/new" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic eG0wcmZpbkBnbWFpbC5jb206MTIzNA==" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/items/new" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization:" />
+                <option name="value" value="Basic eG0wcmZpbkBnbWFpbC5jb206MTIzNA==" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/items/new" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Rake.db:migrate: Droplet">
     <configuration default="false" name="test:all:db: Droplet" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="Droplet" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -486,6 +914,30 @@
       <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="C:/Ruby200/bin/irb" />
       <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="--prompt simple" />
       <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="db:migrate: Droplet" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="Droplet" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="development" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
@@ -661,17 +1113,17 @@
       <item index="1" class="java.lang.String" itemvalue="Rake.spec: Droplet" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: Droplet" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: Droplet" />
-      <item index="4" class="java.lang.String" itemvalue="Rake.test:units: Droplet" />
-      <item index="5" class="java.lang.String" itemvalue="Rake.test:all:db: Droplet" />
-      <item index="6" class="java.lang.String" itemvalue="Rake.db:test:prepare: Droplet" />
-      <item index="7" class="java.lang.String" itemvalue="IRB console.Rails console: Droplet" />
-      <item index="8" class="java.lang.String" itemvalue="IRB console.IRB console: Droplet" />
+      <item index="4" class="java.lang.String" itemvalue="Rake.test:all:db: Droplet" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.db:test:prepare: Droplet" />
+      <item index="6" class="java.lang.String" itemvalue="IRB console.Rails console: Droplet" />
+      <item index="7" class="java.lang.String" itemvalue="IRB console.IRB console: Droplet" />
+      <item index="8" class="java.lang.String" itemvalue="Rake.db:migrate: Droplet" />
     </list>
     <recent_temporary>
       <list size="3">
         <item index="0" class="java.lang.String" itemvalue="IRB console.Rails console: Droplet" />
-        <item index="1" class="java.lang.String" itemvalue="IRB console.IRB console: Droplet" />
-        <item index="2" class="java.lang.String" itemvalue="Rake.test:units: Droplet" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.db:migrate: Droplet" />
+        <item index="2" class="java.lang.String" itemvalue="IRB console.IRB console: Droplet" />
       </list>
     </recent_temporary>
   </component>
@@ -702,22 +1154,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
+    <frame x="2153" y="91" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968035" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4352557" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27671233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25782415" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27566963" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -764,30 +1216,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="920" selection-end="920" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="867">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="33" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
           <folding />
         </state>
       </provider>
@@ -841,13 +1272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="51" selection-start="907" selection-end="907" vertical-scroll-proportion="0.48825064" vertical-offset="0" max-vertical-offset="766">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/models/user_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="34" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
@@ -855,9 +1279,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/uploads_controller.rb">
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="39" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+        <state line="16" column="33" selection-start="675" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="75" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="52" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="12" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="901">
           <folding />
         </state>
       </provider>
@@ -871,7 +1316,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="5" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+        <state line="5" column="0" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/uploads_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="61" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
           <folding />
         </state>
       </provider>
@@ -883,9 +1335,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/uploads_helper.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/uploads_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="49" selection-start="429" selection-end="429" vertical-scroll-proportion="0.24412532" vertical-offset="0" max-vertical-offset="766">
+        <state line="68" column="73" selection-start="2292" selection-end="2292" vertical-scroll-proportion="1.9626485" vertical-offset="0" max-vertical-offset="1598">
           <folding />
         </state>
       </provider>

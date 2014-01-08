@@ -12,6 +12,10 @@ class User < ActiveRecord::Base
     User.find_by_login_and_hashed_password(login, pwd)
   end
 
+  def self.decrement_remaininguploads(user)
+    User.where('id = ? AND plan = ?', user, 0).update_all("uploadsleft = uploadsleft - 1")
+  end
+
   private
 
   def encrypt_password

@@ -8,6 +8,19 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
- *= require_self
- *= require_tree .
+ *= require twitter/bootstrap
  */
+#content {
+    background: #FFF;
+    margin: 0px auto;
+    /*max-width: 90%;*/
+    text-align: center;
+}
+body {
+   min-width: 320;
+   font: 12px "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+.img-responsive {
+    margin: 0 auto;
+    max-height: 800px;
+}

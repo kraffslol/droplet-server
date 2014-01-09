@@ -3,6 +3,8 @@ Droplet::Application.routes.draw do
   get 'items/new' => 'uploads#new'
   get 'items/s3' => 'uploads#s3'
 
+  root 'home#index'
+
   get ":id" => "file#view"
   get ":id/*filename" => "file#redirect"
 

@@ -2,7 +2,7 @@ require 'aws/s3'
 require 'mime/types'
 class UploadsController < ApplicationController
   include UploadsHelper
-  before_action :authenticate_with_basic_auth, only: :new
+  before_action :authenticate_with_basic_auth
 
   # GET /new
   def new
@@ -25,7 +25,7 @@ class UploadsController < ApplicationController
           set_content_type(obj, filename)
 
           # Add file to table.
-          if(Upload.create(filename: params[:key], slug: slug, views: 0))
+          if(Upload.create(filename: params[:key], slug: slug, views: 0, userid: current_user.id, filetype: get_filetype(filename)))
             User.decrement_remaininguploads(current_user)
             render json: generate_s3_response(slug, filename, params[:bucket], params[:key])
           else

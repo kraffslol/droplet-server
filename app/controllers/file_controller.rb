@@ -1,6 +1,11 @@
 class FileController < ApplicationController
   def view
-    render text: "hi"
+    file = Upload.where(slug: params[:id]).last
+    if(file)
+      @file = file
+    else
+      render :nothing => true, :Status => 404
+    end
   end
 
   def redirect

@@ -1,0 +1,12 @@
+<% title get_filename(@file.filename) + " • Droplet.pw" %>
+<header>
+  <a id="home" href="/"><img src="/assets/dropleticon.png /"></a>
+  <a id="direct" href="<%=request.protocol + request.host_with_port + "/" + @file.slug%>/<%=get_filename(@file.filename)%>">Direct Link</a>
+</header>
+<section id="content" style="padding-top: 35px;">
+  <% if @file.filetype == "image" %>
+       <img class="img-responsive" src="<%=request.protocol + request.host_with_port + "/" + @file.slug%>/<%=get_filename(@file.filename)%>">
+  <% else %>
+        <a href="<%=request.protocol + request.host_with_port + "/" + @file.slug%>/<%=get_filename(@file.filename)%>">Download <%=get_filename(@file.filename)%></a>
+  <% end %>
+</section>

@@ -100,4 +100,8 @@ module UploadsHelper
   def set_content_type(obj, filename)
     obj.copy_to(obj.key, :content_type => MIME::Types.type_for(filename).first.content_type, :acl => "public-read")
   end
+
+  def get_filetype(filename)
+    return MIME::Types.type_for(filename).first.media_type
+  end
 end

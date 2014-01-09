@@ -13,4 +13,10 @@ class ApplicationController < ActionController::Base
   def current_user
     @current_user
   end
+
+  #Helper method to get the filename from s3 path.
+  helper_method :get_filename
+  def get_filename(file)
+    return file[11..-1]
+  end
 end

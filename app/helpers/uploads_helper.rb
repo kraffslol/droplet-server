@@ -91,12 +91,6 @@ module UploadsHelper
     }
   end
 
-  def get_s3_object(bucket, key)
-    AWS.config(access_key_id: Rails.application.config.s3_access_key, secret_access_key: Rails.application.config.s3_secret_key, region: 'eu-west-1')
-    s3 = AWS::S3.new
-    return s3.buckets[bucket].objects[key]
-  end
-
   def set_content_type(obj, filename)
     obj.copy_to(obj.key, :content_type => MIME::Types.type_for(filename).first.content_type, :acl => "public-read")
   end

@@ -6,6 +6,7 @@ Droplet::Application.routes.draw do
   root 'home#index'
 
   get ":id" => "file#view"
+  delete ":id" => "file#delete"
   get ":id/*filename" => "file#redirect"
 
   # The priority is based upon order of creation: first created -> highest priority.

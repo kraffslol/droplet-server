@@ -7,6 +7,7 @@
   <% if @file.filetype == "image" %>
        <img class="img-responsive" src="<%=request.protocol + request.host_with_port + "/" + @file.slug%>/<%=get_filename(@file.filename)%>">
   <% else %>
-        <a href="<%=request.protocol + request.host_with_port + "/" + @file.slug%>/<%=get_filename(@file.filename)%>">Download <%=get_filename(@file.filename)%></a>
+       <h3><%=get_filename(@file.filename)%></h3>
+       <a href="<%=request.protocol + request.host_with_port + "/" + @file.slug%>/<%=get_filename(@file.filename)%>" class="btn btn-primary btn-lg" role="button" style="color: #fff;">Download</a>
   <% end %>
 </section>

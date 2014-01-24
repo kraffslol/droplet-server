@@ -5,6 +5,8 @@ Droplet::Application.routes.draw do
 
   root 'home#index'
 
+  post 'register' => 'user#new'
+
   get ":id" => "file#view"
   delete ":id" => "file#delete"
   get ":id/*filename" => "file#redirect"

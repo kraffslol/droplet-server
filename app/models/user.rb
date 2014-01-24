@@ -1,6 +1,7 @@
 require 'digest/sha1'
 class User < ActiveRecord::Base
-  validates_presence_of :login
+  email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  validates :login, :presence => true, :format => { :with => email_regex }, :uniqueness => true
   validates_confirmation_of :password
   attr_accessor :password
 
@@ -14,6 +15,10 @@ class User < ActiveRecord::Base
 
   def self.decrement_remaininguploads(user)
     User.where('id = ? AND plan = ?', user, 0).update_all("uploadsleft = uploadsleft - 1")
+  end
+
+  def self.reset_remaininguplods
+    User.where('uploadsleft < 10').update_all("uploadsleft = 10")
   end
 
   private

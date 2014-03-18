@@ -3,6 +3,8 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
+  before_filter :authenticate_with_basic_auth, :if => :rails_admin_path?
+
   def authenticate_with_basic_auth
     authenticate_or_request_with_http_basic do |username, password|
       @current_user = User.authenticated?(username, password)
@@ -19,4 +21,11 @@ class ApplicationController < ActionController::Base
   def get_filename(file)
     return file[11..-1]
   end
+
+  private
+
+  def rails_admin_path?
+    controller_path =~ /rails_admin/
+  end
+
 end

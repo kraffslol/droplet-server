@@ -1,4 +1,5 @@
 Droplet::Application.routes.draw do
+  mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
   #resources :uploads
   get 'items/new' => 'uploads#new'
   get 'items/s3' => 'uploads#s3'

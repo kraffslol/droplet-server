@@ -155,7 +155,7 @@
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/bin/rails" />
-      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="console development" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="console" />
       <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="true" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
@@ -230,25 +230,35 @@
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.6.3, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.0.2, ruby-2.0.0-p353) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="font-awesome-rails (v4.0.3.1, ruby-2.0.0-p353) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="haml (v4.0.5, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.9, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v1.5.3, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v3.0.4, ruby-2.0.0-p353) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jquery-ui-rails (v4.1.1, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.8.1, ruby-2.0.0-p353) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="kaminari (v0.15.1, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.5.4, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.25.1, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mini_portile (v0.5.2, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v4.7.5, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.8.2, ruby-2.0.0-p353) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="nested_form (v0.3.2, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.6.1, ruby-2.0.0-p353) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pbkdf2 (v0.2.0@b8c9fd, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pg (v0.17.1, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.3, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.5.2, ruby-2.0.0-p353) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack-pjax (v0.7.0, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.2, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails (v4.0.2, ruby-2.0.0-p353) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails_admin (v0.6.1, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="railties (v4.0.2, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v10.1.1, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v3.12.2, ruby-2.0.0-p353) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="remotipart (v1.2.1, ruby-2.0.0-p353) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="safe_yaml (v1.0.1, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.13, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v4.0.1, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sdoc (v0.3.20, ruby-2.0.0-p353) [gem]" level="application" />

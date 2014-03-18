@@ -38,6 +38,9 @@ end
 
 gem 'aws-sdk'
 
+gem 'rails_admin'
+gem 'pbkdf2', :git => 'git://github.com/emerose/pbkdf2-ruby.git'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

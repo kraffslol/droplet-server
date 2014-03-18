@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140109173453) do
+ActiveRecord::Schema.define(version: 20140214012510) do
 
   create_table "uploads", force: true do |t|
     t.string   "slug"
@@ -30,6 +30,8 @@ ActiveRecord::Schema.define(version: 20140109173453) do
     t.integer  "uploadsleft"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "admin",           default: 0
+    t.string   "salt"
   end
 
 end
